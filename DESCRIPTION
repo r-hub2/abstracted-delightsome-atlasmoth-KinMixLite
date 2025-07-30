@@ -19,5 +19,5 @@ Imports: statnet.common, gRbase, Rsolnp, numDeriv, Matrix, ribd,
         pedtools, methods
 URL: https://petergreen5678.github.io/research/software/kinmix.html
 NeedsCompilation: no
-Packaged: 2025-07-30 09:08:49 UTC; mapjg
+Packaged: 2025-07-30 12:26:02 UTC; mapjg
 Author: Peter Green [aut, cre]

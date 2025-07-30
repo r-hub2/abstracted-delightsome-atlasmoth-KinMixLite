@@ -1705,11 +1705,11 @@ function (mixture, M, compile = TRUE)
 size <-
 function (mixture) 
 {
-    res <- sum(unlist(lapply(mixture$dom, function(d) sizedomain(d))))
+    if((.Platform$OS.type=="windows")&&("package:RHugin"%in%search())) 
+		res<-0 else res <- sum(unlist(lapply(mixture$dom, function(d) sizedomain(d)))) 
     class(res) <- "tablesize"
     res
 }
-
 sizedomain<-function(domain)
 {
 if(is(domain,'gRaven')) 
