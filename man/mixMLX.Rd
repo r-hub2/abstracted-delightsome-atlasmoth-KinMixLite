@@ -1,7 +1,7 @@
 \name{mixMLX}
 \alias{mixMLX}
 \title{Maximises mixture likelihood when extra findings present}
-\description{Replacement for mixML in DNAmixtures that calls logLX instead of logL.}
+\description{Replacement for mixML in DNAmixturesLite that calls logLX instead of logL.}
 \usage{
 mixMLX(mixture, expr.extra.findings, pars, constraints = NULL, phi.eq = FALSE, 
     val = NULL, trace = FALSE, order.unknowns = TRUE, initialize = FALSE, ...)

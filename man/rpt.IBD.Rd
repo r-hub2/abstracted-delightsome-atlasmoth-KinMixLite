@@ -29,7 +29,7 @@ rpt.typed.parents(mixture, Mgt, Fgt, ind=1, compile=TRUE)
 rpt.typed.relative(mixture, Rgt, IBD=c(0.25,0.5,0.25), ind=1, compile=TRUE)
 }
 \arguments{
-  \item{mixture}{DNAmixtures object created by previous call to \code{DNAmixture} with \cr
+  \item{mixture}{DNAmixturesLite object created by previous call to \code{DNAmixture} with \cr
 	\code{triangulate=FALSE,compile=FALSE}}
   \item{IBD}{relationships between the specified individuals, as multi-person condensed 
 coefficients of identity, in one of several representation; see Details.}

@@ -28,7 +28,7 @@ if(length(move)>0) {
 	if(rp) {
 	xtyped<-setdiff(xtyped,move)
 	xcontribs<-setdiff(xcontribs,move)
-	cat(move,'should be added to ref prof\n',
+	cat(move,'will be added to ref prof\n',
 	'having been dropped from typed and contribs\n')
 	} else {
 	xtargets<-union(xtargets,move)

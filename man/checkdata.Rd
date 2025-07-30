@@ -9,7 +9,7 @@ checkdata(epg,database,typed.gts=NULL,reference.profiles=NULL)
   \item{epg}{data frame, the epg; see \code{\link{formats}}.}
   \item{database}{data frame, the db; see \code{\link{formats}}.}
   \item{typed.gts}{named list of genotype objects; see \code{\link{formats}.}}
-  \item{reference.profiles}{data frame containing reference.profiles in DNAmixtures format}
+  \item{reference.profiles}{data frame containing reference.profiles in DNAmixturesLite format}
 }
 \value{NULL}
 \author{

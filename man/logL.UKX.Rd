@@ -2,7 +2,7 @@
 \alias{logL.UKX}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Evaluates mixture log likelihood for unknown contributors with extra findings}
-\description{Replacement for logL.UK in DNAmixtures that calls \code{extra.findings} immediately before 
+\description{Replacement for logL.UK in DNAmixturesLite that calls \code{extra.findings} immediately before 
 propagating all findings and returning the normalising constant for the network.}
 \usage{logL.UKX(mixture, expr.extra.findings, initialize = FALSE)}
 \arguments{

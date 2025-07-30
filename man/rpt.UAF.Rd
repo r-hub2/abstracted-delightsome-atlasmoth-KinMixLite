@@ -11,7 +11,7 @@ replace.tables.for.UAF(mixture, M, compile = TRUE)
 rpt.UAF(mixture, M, compile = TRUE)
 }
 \arguments{
-  \item{mixture}{DNAmixtures object created by previous call to \code{DNAmixture} with \cr
+  \item{mixture}{DNAmixturesLite object created by previous call to \code{DNAmixture} with \cr
 \code{triangulate=FALSE,compile=FALSE}}
   \item{M}{Size of allele frequency database}
   \item{compile}{logical flag: should mixture object be compiled on exit?}

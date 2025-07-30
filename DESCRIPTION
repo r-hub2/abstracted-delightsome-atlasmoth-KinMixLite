@@ -2,7 +2,7 @@ Package: KinMixLite
 Type: Package
 Title: Inference About Relationships from DNA Mixtures
 Version: 2.2.1
-Date: 2025-07-27
+Date: 2025-07-30
 Authors@R: c(person("Peter", "Green", role = c("aut", "cre"), email = "P.J.Green@bristol.ac.uk"))
 Maintainer: Peter Green <P.J.Green@bristol.ac.uk>
 Description: Methods for inference about/under complex relationships using
@@ -19,5 +19,5 @@ Imports: statnet.common, gRbase, Rsolnp, numDeriv, Matrix, ribd,
         pedtools, methods
 URL: https://petergreen5678.github.io/research/software/kinmix.html
 NeedsCompilation: no
-Packaged: 2025-07-27 15:24:06 UTC; mapjg
+Packaged: 2025-07-30 09:08:49 UTC; mapjg
 Author: Peter Green [aut, cre]

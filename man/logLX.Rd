@@ -2,7 +2,7 @@
 \alias{logLX}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Evaluates mixture log likelihood when extra findings present}
-\description{Replacement for logL in DNAmixtures that calls calls LogL.UKX instead of logL.UK.}
+\description{Replacement for logL in DNAmixturesLite that calls calls LogL.UKX instead of logL.UK.}
 \usage{logLX(mixture, expr.extra.findings, presence.only = FALSE, initialize = FALSE)}
 \arguments{
   \item{mixture}{Compiled DNAmixture object.}
@@ -16,7 +16,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 }
 
 \seealso{
-See also \code{\link[DNAmixtures]{logL}}.
+See also \code{\link[DNAmixturesLite]{logL}}.
 }
 \examples{
 data(test2data)

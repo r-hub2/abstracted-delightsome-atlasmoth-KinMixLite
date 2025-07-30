@@ -14,9 +14,6 @@ if(length(targets)*2!=ncol(IBD$patt)) stop('targets and IBD inconsistent')
 
 z<-KMmodel(k,typed,targets,contribs,rp=TRUE,verbose=TRUE)
 
-xcontribs<-z$contribs
-xtyped<-z$typed
-if(is.null(z$typed)) typed.gts<-NULL else typed.gts<-typed.gts[z$typed]
 
 xprofiles<-z$move
 # merge both sorts of known contributors
@@ -32,6 +29,9 @@ if(!is.null(reference.profiles)){
 	}
 }
 xprofiles<-c(K,xprofiles)
+xcontribs<-z$contribs
+xtyped<-z$typed
+if(is.null(z$typed)) typed.gts<-NULL else typed.gts<-typed.gts[z$typed]
 
 xignore<-setdiff(typed,union(contribs,targets))
 

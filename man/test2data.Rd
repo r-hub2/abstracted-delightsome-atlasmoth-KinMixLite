@@ -14,8 +14,8 @@
 \usage{data("test2data")}
 \format{
 Data objects for demonstrating KinMix:
-\code{epg} (DNAmixtures peak height data), 
-\code{db} (DNAmixtures allele frequency database), 
+\code{epg} (DNAmixturesLite peak height data), 
+\code{db} (DNAmixturesLite allele frequency database), 
 and \code{Cgt, Fgt, Mgt, Rgt, S1gt, S2gt} potential relative genotype data frames.
 }
 \examples{
